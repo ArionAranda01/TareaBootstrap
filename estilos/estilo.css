@@ -1,0 +1,39 @@
+.contenedor{
+	padding: 5px;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	grid-template-areas:"header       header"
+	                    "nav          nav"
+	                    "contenido    ads"
+	                    "footer       footer";
+
+}
+.contenedor .header{
+	background-color:#138D75;
+	border-radius: 15px;
+	grid-area: header;
+	text-align: center;
+	padding: 10px;
+	font-family: sans-serif;
+}
+.contenedor .nav{
+	background-color:#000;
+	grid-area: nav;
+}
+
+.contenedor .contenido{
+	background-color: #45B39D;
+	grid-area: contenido;
+}
+.contenedor .ads{
+	background-color: #45B39D;
+	padding: 15px;
+	grid-area: ads;
+}
+.contenedor .footer{
+	background-color:#0E6655 ;
+	grid-area: footer;
+	padding: 10px;
+
+}

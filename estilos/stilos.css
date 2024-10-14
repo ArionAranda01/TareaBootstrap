@@ -1,0 +1,41 @@
+
+.cont{
+	padding: 5px;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	grid-template-areas:"head       head"
+	                    "men        men"
+	                    "card1      inf"
+	                    "card2      card2"
+	                    "foter       foter";
+
+}
+.cont .head{
+	background-color:#F39C12;
+	grid-area: head;
+}
+.cont .men{
+	background-color: black;
+	grid-area: men;
+}
+.cont .info{
+	background-color:#34495E  ;
+	grid-area: info;
+}
+.cont .card1{
+	background-color:#34495E ;
+	grid-area: card1;
+	padding-left: 70px;
+	padding-top: 15px;
+}
+.cont .card2{
+	background-color:#34495E ;
+	grid-area: card2;
+    padding-top: 15px;
+}
+.cont .foter{
+	background-color:#16A085 ;
+	grid-area:foter;
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+.content-1{
+	padding: 5px;
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas:"cabeza cabeza cabeza"
+	                    "menu   menu   menu"
+	                    "info   info2  info3"
+	                    "piepag piepag piepag"
+	                    "fot    fot    fot";
+
+}
+.content-1 .cabeza{
+	background-color:#2980B9;
+	grid-area: cabeza;
+	text-align: center;
+	padding: 10px;
+	font-family: sans-serif;
+}
+.content-1 .menu{
+	background-color:#000;
+	grid-area: menu;
+}
+
+.content-1 .info{
+	background-color: #C0392B ;
+	grid-area:info;
+	padding: 15px;
+}
+.content-1 .info2{
+	background-color: #F4D03F;
+	grid-area:info2;
+	padding: 15px;
+}
+.content-1 .info3{
+	background-color: #45B39D;
+	grid-area:info3;
+	padding: 15px;
+}
+.content-1 .piepag{
+	background-color:#000 ;
+	grid-area: piepag;
+	padding: 15px;
+}
+.content-1 .fot{
+	background-color:#fff;
+	grid-area: fot;
+}
